@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunzy's Portfolio Website</title>
+    <meta name="description" content="Award-winning portfolio of Bunzy, a premium Roblox Game Developer, UI/UX Designer, and GFX Artist.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-text">Bunzy's Portfolio</div>
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="scroll-progress"></div>
+
+    <!-- Animated Background Glows -->
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+    <div class="bg-glow glow-3"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <!-- CHANGE LOGO NAME HERE -->
+            <a href="#home" class="logo">Bunzy's Portfolio</a>
+            
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#ui-design">UI Design</a>
+                <a href="#gfx">GFX</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <!-- CHANGE HERO TITLE HERE -->
+            <h1 class="hero-title">I'm Bunzy</h1>
+            
+            <!-- CHANGE SUBTITLE HERE -->
+            <h2 class="hero-subtitle">Roblox Dev</h2>
+            
+            <!-- CHANGE HERO DESCRIPTION HERE -->
+            <p class="hero-desc">Hey im a game Developer And i make some cool UI and other stuff if you are intrested keep scrolling down to see my portfolio.</p>
+            
+            <div class="hero-buttons">
+                <!-- CHANGE BUTTON LINKS HERE -->
+                <a href="#projects" class="btn btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image glass-panel">
+                    <!-- CHANGE PROFILE IMAGE HERE -->
+                    <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\aboutME.png" alt="Bunzy Profile" class="placeholder-img" style="border-radius: 20px;">
+                </div>
+                <div class="about-text glass-panel">
+                    <!-- EDIT ABOUT ME TEXT HERE -->
+                    <p>I Like do to <strong>Roblox Development</strong>.Since i was 13 Years old on that time i was used to play roblox then i started researching how games made how people make those cool shiny ui.</p>
+                    <p>On the second day i started learning roblox studio then i get intrest in roblox ui devlopment so since 13year old im doing it and now im 19.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MY ROLES -->
+    <section id="roles" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">My Roles</h2>
+            <div class="roles-grid">
+                <!-- ROLE CARD START -->
+                <div class="role-card glass-card">
+                    <div class="role-icon">🏗️</div>
+                    <h3>LittleBit Builder</h3>
+                </div>
+                <!-- ROLE CARD START -->
+                <div class="role-card glass-card">
+                    <div class="role-icon">✨</div>
+                    <h3>UI Designer</h3>
+                </div>
+                <!-- ROLE CARD START -->
+                <div class="role-card glass-card">
+                    <div class="role-icon">🎨</div>
+                    <h3>Roblox Thumbnail Designer</h3>
+                </div>
+                <!-- ROLE CARD START -->
+                <div class="role-card glass-card">
+                    <div class="role-icon">👤</div>
+                    <h3>PFP Designer</h3>
+                </div>
+                <!-- ROLE CARD START -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section id="projects" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">Some Game Where I Work</h2>
+            <div class="projects-grid">
+                
+                <!-- PROJECT CARD 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <!-- CHANGE PROJECT IMAGE HERE -->
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\Clean.png" alt="Make a Drill Farm" class="placeholder-img">
+                        <span class="status-badge status-released">Successfull</span>
+                    </div>
+                    <div class="project-info">
+                        <!-- CHANGE PROJECT TITLE & DESC HERE -->
+                        <h3> Clean Your Keycaps</h3>
+                        <p>A Very Popular Roblox Game With Over 10k CCU.</p>
+                        <a href="https://www.roblox.com/games/82745432464897/Clean-Your-Keycaps" class="btn btn-outline" target=blank>Visit Game</a>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <!-- CHANGE PROJECT IMAGE HERE -->
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\MUSEUMRNG.png" alt=Museum RNG" class="placeholder-img">
+                        <span class="status-badge status-indev">Successfull</span>
+                    </div>
+                    <div class="project-info">
+                        <!-- CHANGE PROJECT TITLE & DESC HERE -->
+                        <h3>Museum RNG</h3>
+                        <p>A very popular game where you have to roll rare museum rng with over 5Millions Visits.</p>
+                        <a href="https://www.roblox.com/games/88615997771503/Museum-RNG" class="btn btn-outline" target=blank>Visit Game</a>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD 3 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <!-- CHANGE PROJECT IMAGE HERE -->
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\POPABALLOON.png" alt="Pop a Balloon" class="placeholder-img">
+                        <span class="status-badge status-upcoming">Successfull</span>
+                    </div>
+                    <div class="project-info">
+                        <!-- CHANGE PROJECT TITLE & DESC HERE -->
+                        <h3>Pop a Balloon</h3>
+                        <p>A very good Tower Defence With over 30Million Visits.</p>
+                        <a href="https://www.roblox.com/games/96554960408457/Pop-a-Balloon" class="btn btn-outline" target=blank>Visit Game</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- UI DESIGN CATEGORY -->
+    <section id="ui-design" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">UI Design</h2>
+            <div class="ui-grid">
+                
+                <!-- ADD NEW UI CARD HERE BY COPYING THIS BLOCK -->
+                <div class="ui-card glass-card">
+                    <div class="ui-img-wrapper">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\ShopUI.png" alt="Shop UI" class="placeholder-img">
+                        <div class="ui-overlay"><a href="#" class="btn btn-primary">View Full Image</a></div>
+                    </div>
+                    <div class="ui-info">
+                        <h4>Shop UI</h4>
+                        <p>A Cool Shop UI Include Eggs,Cash,ServerLucka and GamePasses.</p>
+                    </div>
+                </div>
+                <!-- END UI CARD -->
+
+                <div class="ui-card glass-card">
+                    <div class="ui-img-wrapper">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\inventoru.png" alt="Inventory UI" class="placeholder-img">
+                        <div class="ui-overlay"><a href="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\ShopUI.png" class="btn btn-primary">View Full Image</a></div>
+                    </div>
+                    <div class="ui-info">
+                        <h4>Inventory UI</h4>
+                        <p>Grid-based inventory system.</p>
+                    </div>
+                </div>
+
+                <div class="ui-card glass-card">
+                    <div class="ui-img-wrapper">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\rebirth.png" alt="Rebirth UI" class="placeholder-img">
+                        <div class="ui-overlay"><a href="#" class="btn btn-primary">View Full Image</a></div>
+                    </div>
+                    <div class="ui-info">
+                        <h4>Rebirth UI</h4>
+                        <p>Regular Rebirth UI.</p>
+                    </div>
+                </div>
+
+                <div class="ui-card glass-card">
+                    <div class="ui-img-wrapper">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\Settings.png" alt="Settings UI" class="placeholder-img">
+                        <div class="ui-overlay"><a href="#" class="btn btn-primary">View Full Image</a></div>
+                    </div>
+                    <div class="ui-info">
+                        <h4>Settings UI</h4>
+                        <p>Clean toggles and sliders.</p>
+                    </div>
+                </div>
+
+                <div class="ui-card glass-card">
+                    <div class="ui-img-wrapper">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\Dailydeal.png" alt="Daily Rewards UI" class="placeholder-img">
+                        <div class="ui-overlay"><a href="#" class="btn btn-primary">View Full Image</a></div>
+                    </div>
+                    <div class="ui-info">
+                        <h4>Daily Rewards UI</h4>
+                        <p>7-day streak calendar UI.</p>
+                    </div>
+                </div>
+
+                <div class="ui-card glass-card">
+                    <div class="ui-img-wrapper">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\Quest.png" alt="Quest UI" class="placeholder-img">
+                        <div class="ui-overlay"><a href="#" class="btn btn-primary">View Full Image</a></div>
+                    </div>
+                    <div class="ui-info">
+                        <h4>Quest UI</h4>
+                        <p>Interactive objective tracker.</p>
+                    </div>
+                </div>
+
+                <div class="ui-card glass-card">
+                    <div class="ui-img-wrapper">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\LoadingScreen.png" alt="Loading Screen UI" class="placeholder-img">
+                        <div class="ui-overlay"><a href="#" class="btn btn-primary">View Full Image</a></div>
+                    </div>
+                    <div class="ui-info">
+                        <h4>Loading Screen UI</h4>
+                        <p>Smooth animated transition screen.</p>
+                    </div>
+                </div>
+
+                <div class="ui-card glass-card">
+                    <div class="ui-img-wrapper">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\AdminPanel.png" alt="Admin Panel UI" class="placeholder-img">
+                        <div class="ui-overlay"><a href="#" class="btn btn-primary">View Full Image</a></div>
+                    </div>
+                    <div class="ui-info">
+                        <h4>Admin Panel UI</h4>
+                        <p>Secure moderator dashboard.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GFX CATEGORY -->
+    <section id="gfx" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">GFX Design</h2>
+            
+            <!-- Game Thumbnails Subcategory -->
+            <div class="gfx-subcategory">
+                <h3 class="subsection-title">Game Thumbnails</h3>
+                <div class="thumbnail-grid">
+                    
+                    <!-- ADD MORE THUMBNAILS HERE -->
+                    <div class="thumb-card glass-card">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\WeightsForBrainrot1.jpg" alt="Simulator" class="placeholder-img">
+                        <div class="thumb-info">
+                            <h4>High Saturated</h4>
+                            <p>Bright, vibrant, and highly clickable.</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-card glass-card">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\WeightsForBrainrot3.jpg" alt="Tycoon" class="placeholder-img">
+                        <div class="thumb-info">
+                            <h4>High Saturated</h4>
+                            <p>Also For Bright And High Saturated Game.</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-card glass-card">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\Fisch.jpg" alt="Adventure" class="placeholder-img">
+                        <div class="thumb-info">
+                            <h4>Fishing Game</h4>
+                            <p>Inspired By Fishing Games.</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-card glass-card">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\Fisch2.jpg" alt="Horror" class="placeholder-img">
+                        <div class="thumb-info">
+                            <h4>Fisch Thumbnail</h4>
+                            <p>Ocean,Sky,Bacon,Fish.</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-card glass-card">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\DeadmartIcon v2.jpg" alt="Anime" class="placeholder-img">
+                        <div class="thumb-info">
+                            <h4>Roblox Thumbnail</h4>
+                            <p>Dynamic poses and FX.</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-card glass-card">
+                        <img src="assets/images/5RaftSlideDownv2.jpg" alt="Fighting" class="placeholder-img">
+                        <div class="thumb-info">
+                            <h4>Stud Style Game Thumbnail</h4>
+                            <p>High-energy.</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-card glass-card">
+                        <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\3RaftSlideDown.jpg" alt="Update" class="placeholder-img">
+                        <div class="thumb-info">
+                            <h4>Slide Thumbnail</h4>
+                            <p>Some Cool Game.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="spacer" style="height: 60px;"></div>
+
+            <!-- Profile Pictures Subcategory -->
+            <div class="gfx-subcategory">
+                <h3 class="subsection-title">Work With These Devs</h3>
+                <div class="pfp-grid">
+                    
+                    <!-- ADD MORE PFP DESIGNS HERE -->
+                    <div class="pfp-card">
+                        <div class="pfp-img-wrapper">
+                            <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\Fabs-dev.png" alt="PFP 1" class="placeholder-img circular-img">
+                        </div>
+                        <h4>Fab</h4>
+                        <p>Roblox Dev-Verified</p>
+                    </div>
+
+                    <div class="pfp-card">
+                        <div class="pfp-img-wrapper">
+                            <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\fond-dev.png" alt="PFP 2" class="placeholder-img circular-img">
+                        </div>
+                        <h4>Fond</h4>
+                        <p>Roblox Dev-Verified</p>
+                    </div>
+
+                    <div class="pfp-card">
+                        <div class="pfp-img-wrapper">
+                            <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\Dev-Kaz.png" alt="PFP 3" class="placeholder-img circular-img">
+                        </div>
+                        <h4>Kaz</h4>
+                        <p>Roblox Dev</p>
+                    </div>
+
+                    <div class="pfp-card">
+                        <div class="pfp-img-wrapper">
+                            <img src="C:\Users\Admin\Desktop\Bunzy_Portfolio\assets\images\goteyogo-dev.png" alt="PFP 4" class="placeholder-img circular-img">
+                        </div>
+                        <h4>Geyteygo</h4>
+                        <p>Roblox Dev-Verified</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">Skills & Software</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card">Roblox Studio</div>
+                <div class="skill-card glass-card">UI Design</div>
+                <div class="skill-card glass-card">Game Design</div>
+                <div class="skill-card glass-card">Building</div>
+                <div class="skill-card glass-card">Thumbnail Design</div>
+                <div class="skill-card glass-card">PFP Design</div>
+                <div class="skill-card glass-card">Photoshop</div>
+                <div class="skill-card glass-card">Adove Premier Pro</div>
+                <div class="skill-card glass-card">Figma</div>
+                <div class="skill-card glass-card">Canva</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MY PROCESS -->
+    <section id="process" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">My Process</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>1. Idea</h3>
+                        <p>Geting A idea For a Game.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>2. Planning</h3>
+                        <p>Planning What Do Build .</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>3. UI Design</h3>
+                        <p>Making UI Like Shop,Rebirth,index,Setting And Etc.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>4. Building</h3>
+                        <p>Focusing building Map and detailed props.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>5. Testing</h3>
+                        <p>Rigorous bug testing and QA on multiple devices.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>6. Release</h3>
+                        <p>Polishing thumbnails, marketing,final publish And then A viral Roblox Game.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section id="stats" class="section">
+        <div class="container reveal">
+            <div class="stats-grid">
+                <div class="stat-item glass-card">
+                    <h3 class="counter" data-target="32">0</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item glass-card">
+                    <h3 class="counter" data-target="38">0</h3>
+                    <p>UI Designs</p>
+                </div>
+                <div class="stat-item glass-card">
+                    <h3 class="counter" data-target="56">0</h3>
+                    <p>Thumbnails Created</p>
+                </div>
+                <div class="stat-item glass-card">
+                    <h3 class="counter" data-target="52">0</h3>
+                    <p>PFP Designs</p>
+                </div>
+                <div class="stat-item glass-card">
+                    <h3 class="counter" data-target="2">0</h3>
+                    <p>Games Published</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section">
+        <div class="container reveal">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card glass-panel">
+                    <p class="review">"Bunzy Is Ready To Work With You! just say it when you are ready to make a viral front page game!"</p>
+                    <div class="client-info">
+                        <strong>Studio Owner</strong>
+                        <span>worked on 60+ Games</span>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-panel">
+                    <p class="review">"The thumbnails provided were top tier. Extremely fast delivery and premium quality. Will definitely hire again."</p>
+                    <div class="client-info">
+                        <strong>Lead Designer</strong>
+                        <span>-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container reveal center-text">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="contact-subtitle">Ready to take your Roblox game to the next level? Get in touch today.</p>
+            
+            <div class="contact-buttons">
+                <!-- CHANGE DISCORD LINK HERE -->
+                <a href="https://discord.com" target="_blank" class="btn btn-primary btn-large">
+                    Discord - BunzyBlox
+                </a>
+                
+                <!-- CHANGE ROBLOX PROFILE LINK HERE -->
+                <a href="https://www.roblox.com/users/8235746311/profile" target="_blank" class="btn btn-outline btn-large">
+                    Roblox Profile
+                </a>
+                
+                <!-- CHANGE EMAIL LINK HERE -->
+                <a href="mailto:RehanGaming5776@gmail.com" class="btn btn-outline btn-large">
+                    Email Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <p class="copyright">&copy; <span id="year"></span> Bunzy. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="#">X (Twitter)</a>
+                <a href="#">YouTube</a>
+                <a href="#">ArtStation</a>
+            </div>
+            <button id="backToTop" class="back-to-top">↑ Top</button>
+        </div>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+</html>
